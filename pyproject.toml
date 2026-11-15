@@ -1,0 +1,18 @@
+[project]
+name = "04_minirag"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "fonttools>=4.68.0",
+    "ollama>=0.6.3",
+    "pypdf>=7.0.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

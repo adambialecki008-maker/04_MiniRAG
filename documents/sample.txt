@@ -1,0 +1,1 @@
+PLC controls motor via Siemens Variable Frequency Drive.
